@@ -5,7 +5,7 @@ footer {
 #footer_items {
     display: flex;
     justify-content: space-between;
-    padding: 0px 8% 24px 8%;
+    padding: 10px 8% 24px 8%;
     align-items: center;
 }
 
