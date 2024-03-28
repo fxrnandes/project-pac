@@ -35,6 +35,7 @@
     padding: 12px;
     border-radius: 12px;
     border: 2px dashed #684614;
+    background-color: var(--color-primary-2);
 }
 
 .form-content p {
@@ -44,11 +45,13 @@
 
 .form-content p span {
     color: var(--color-primary-6);
+    
 }
 
 .form i {
     padding: 10px;
     color: var(--color-neutral-1);
+    
 }
 
 form {
@@ -56,16 +59,24 @@ form {
 }
 
 form #nome, #email {
+    display: flex;
     width: 80%;
+    background-color: var(--color-primary-1);
+    border: 1px dashed #684614;
   }
 
 form #tel {
-    width: 70%;
+    display: flex;
+    width: 80%;
+    background-color: var(--color-primary-1);
+    border: 1px dashed #684614;
 }
 
 form #mensagem {
     display: flex;
     width: 100%;
+    background-color: var(--color-primary-1);
+    border: 1px dashed #684614;
   }
   
 
