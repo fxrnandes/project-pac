@@ -40,21 +40,21 @@ $(document).ready(function() {
         distance: '20%'
     });
 
-    ScrollReveal().reveal('.dish', {
+    ScrollReveal().reveal('#card-donors', {
         origin: 'left',
         duration: 2000,
         distance: '20%'
     });
 
-    ScrollReveal().reveal('#testimonial_chef', {
-        origin: 'left',
-        duration: 1000,
+    ScrollReveal().reveal('#help-forms', {
+        origin: 'right',
+        duration: 2000,
         distance: '20%'
     })
 
-    ScrollReveal().reveal('.feedback', {
-        origin: 'right',
-        duration: 1000,
+    ScrollReveal().reveal('#contact-forms', {
+        origin: 'left',
+        duration: 2000,
         distance: '20%'
     })
 });

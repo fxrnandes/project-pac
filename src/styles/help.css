@@ -9,6 +9,7 @@
 #help-img {
     width: 500px;
     height: auto;
+    margin-top: 10%;
 }
 
 #help .section-subtitle {
@@ -17,6 +18,7 @@
 
 #help-content {
     width: 50%;
+    margin-top: 3%;
 }
 
 #help-forms {

@@ -43,24 +43,27 @@
     justify-content: end;
     width: 50%;
     z-index: 2;
+    margin-top: 5%;
 }
 
 #banner img {
     height: 70%;
     width: fit-content;
     margin-right: -150px;
+    margin-top: 5%;
 }
 
 .shape {
     background-color: var(--color-primary-5);
     width: 50%;
-    height: 70%;
+    height: 65%;
     position: absolute;
     border-radius: 40% 30% 0% 20%;
     top: 0;
     right: 0;
     z-index: 1;
     border: 2px dashed #684614;
+    margin-top: 7%;
 }
 
 @media screen and (max-width: 1170px) {
