@@ -91,6 +91,7 @@ section {
 .section-title-contact {
     color: var(--color-neutral-1);
     font-size: 1.563rem;
+    margin-top: 25%;
 }
 
 .section-title-contact span{
