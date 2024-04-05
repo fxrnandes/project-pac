@@ -106,6 +106,7 @@ form #mensagem {
     height: 454px;
     border: 2px dashed #684614;
     border-radius: 10%;
+    margin-top: 10%;
 }
 
 .mapa iframe {
