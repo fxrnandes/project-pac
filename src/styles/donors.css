@@ -6,11 +6,11 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    margin-top: -10%;
+    margin-top: 0%;
 }
 
 .section-title {
-    margin-top: 5%;
+    margin-bottom: -7%;
 }
 
 #card-donors {

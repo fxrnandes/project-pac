@@ -58,3 +58,36 @@ $(document).ready(function() {
         distance: '20%'
     })
 });
+
+function showLoginPopup() {
+    var loginPopup = document.getElementById("loginPopup");
+    loginPopup.style.display = "block";
+}
+
+function closeLoginPopup() {
+    var loginPopup = document.getElementById("loginPopup");
+    loginPopup.style.display = "none";
+}
+
+// Fechar o popup se o usuário clicar fora dele
+window.onclick = function(event) {
+    var loginPopup = document.getElementById("loginPopup");
+    if (event.target == loginPopup) {
+        loginPopup.style.display = "none";
+    }
+};
+
+function togglePasswordVisibility() {
+    var passwordInput = document.getElementById("password");
+    var toggleIcon = document.getElementById("togglePassword");
+
+    if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        toggleIcon.classList.remove("fa-eye-slash");
+        toggleIcon.classList.add("fa-eye");
+    } else {
+        passwordInput.type = "password";
+        toggleIcon.classList.remove("fa-eye");
+        toggleIcon.classList.add("fa-eye-slash");
+    }
+}

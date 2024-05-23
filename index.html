@@ -47,10 +47,27 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
 
-            <div class="login"><a href="">
+            <button id="login_btn" onclick="showLoginPopup()">
                 <i class="fa-solid fa-user fa-2xl"></i>
-            </a>
+            </button>
+
+            <div class="login-popup" id="loginPopup">
+                <div class="login-popup-content">
+                    <span class="close" id="closePopup" onclick="closeLoginPopup()">&times;</span>
+                    <h2>Bem vindo</h2>
+                    <form>
+                        <input type="text" id="username" name="username" required placeholder="Usuário">
+                        <br>
+                        <div class="password-container">
+                            <input type="password" id="password" name="password" placeholder="Senha">
+                            <i id="togglePassword" class="fa fa-eye-slash" onclick="togglePasswordVisibility();"></i>
+                        </div>
+                        <br>
+                        <button class="btn-login" type="submit">Login</button>
+                    </form>
+                </div>
             </div>
+            
         </nav>
 
         <div id="mobile_menu">
