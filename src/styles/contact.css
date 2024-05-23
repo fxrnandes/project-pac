@@ -14,12 +14,36 @@
     height: auto;
 }
 
-#contact .section-subtitle {
+.container-title-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% da altura da janela de visualização */
+}
+
+/* Estilização do subtítulo */
+h3.section-subtitle {
     font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+/* Estilização do span dentro do subtítulo */
+.section-subtitle span {
+    font-size: 2.5rem;
+    color: var(--color-primary-6);
+}
+
+
+.section-subtitle span {
+    font-size: 2.5rem;
+    color: var(--color-primary-6);
 }
 
 #contact-content {
     width: 50%;
+    margin-top: -15%;
 }
 
 #contact-forms {
@@ -106,7 +130,7 @@ form #mensagem {
     height: 454px;
     border: 2px dashed #684614;
     border-radius: 10%;
-    margin-top: 10%;
+    margin-top: -14%;
 }
 
 .mapa iframe {

@@ -11,11 +11,32 @@
 #help-img {
     width: 500px;
     height: auto;
-    margin-top: 10%;
 }
 
-#help .section-subtitle {
+.container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% da altura da janela de visualização */
+}
+
+/* Estilização do subtítulo */
+h3.section-subtitle {
     font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilização do span dentro do subtítulo */
+.section-subtitle span {
+    font-size: 2.5rem;
+    color: var(--color-primary-6);
+}
+
+
+.section-subtitle span {
+    font-size: 2.5rem;
+    color: var(--color-primary-6);
 }
 
 #help-content {
@@ -29,6 +50,11 @@
     gap: 20px;
     margin-bottom: 40px;
     margin-top: 30px;
+}
+
+#help-forms p {
+    margin-top: -3%;
+    width: 100%;
 }
 
 .form {
