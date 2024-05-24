@@ -59,23 +59,23 @@ $(document).ready(function() {
     })
 });
 
+// Selecionar o elemento do pop-up uma vez
+var loginPopup = document.getElementById("loginPopup");
+
 function showLoginPopup() {
-    var loginPopup = document.getElementById("loginPopup");
     loginPopup.style.display = "block";
 }
 
 function closeLoginPopup() {
-    var loginPopup = document.getElementById("loginPopup");
     loginPopup.style.display = "none";
 }
 
 // Fechar o popup se o usuário clicar fora dele
-window.onclick = function(event) {
-    var loginPopup = document.getElementById("loginPopup");
-    if (event.target == loginPopup) {
-        loginPopup.style.display = "none";
+window.addEventListener("click", function(event) {
+    if (event.target === loginPopup) {
+        closeLoginPopup();
     }
-};
+});
 
 function togglePasswordVisibility() {
     var passwordInput = document.getElementById("password");

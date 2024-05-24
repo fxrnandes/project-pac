@@ -56,14 +56,22 @@
                     <span class="close" id="closePopup" onclick="closeLoginPopup()">&times;</span>
                     <h2>Bem vindo</h2>
                     <form>
-                        <input type="text" id="username" name="username" required placeholder="Usuário">
+                        <input type="text" id="username" name="username" required placeholder="Usuário"> 
                         <br>
                         <div class="password-container">
                             <input type="password" id="password" name="password" placeholder="Senha">
                             <i id="togglePassword" class="fa fa-eye-slash" onclick="togglePasswordVisibility();"></i>
                         </div>
                         <br>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Lembre de mim</label>
+                        </div>
                         <button class="btn-login" type="submit">Login</button>
+                        <br>
+                        <div class="forgotPassword">
+                        <a href="#" id="forgotPassword">Esqueceu a senha?</a>
+                        </div>
                     </form>
                 </div>
             </div>
