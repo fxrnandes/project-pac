@@ -70,13 +70,7 @@ section {
     border-radius: 10px;
     text-decoration: none;
     color: var(--color-neutral-1);
-    transition: box-shadow .3s ease;
 }
-
-.social-media-buttons a:hover {
-    border: 2px dashed #684614;
-  }
- 
 
 .section-title {
     color: var(--color-primary-6);
