@@ -1,6 +1,5 @@
 #contact {
     min-height: calc(100vh - 91px);
-    display: flex;
     align-items: center;
     justify-content: center;
     gap: 48px;
@@ -40,15 +39,34 @@ h3.section-subtitle {
 }
 
 #contact-content {
-    width: 50%;
-    margin-top: -15%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.social-media-contact {
+    display: flex;
+    gap: 16px; 
+    transform: scale(2);
+    margin-left: 33%;
+}   
+
+.social-media-contact a {
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: var(--color-neutral-1);
+}
+
+.social-media-contact a:hover i {
+    transform: scale(1.5); 
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .mapa {
     height: 454px;
     border: 2px dashed #684614;
     border-radius: 10%;
-    margin-top: -14%;
 }
 
 .mapa iframe {
