@@ -1,21 +1,12 @@
 #help {
     min-height: calc(100vh - 91px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 48px;
-}
-
-#help-img {
-    width: 500px;
-    height: auto;
 }
 
 .container-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* 100% da altura da janela de visualização */
 }
 
 /* Estilização do subtítulo */
@@ -38,21 +29,30 @@ h3.section-subtitle {
 }
 
 #help-content {
-    width: 50%;
+    width: 95%;
     margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#help-img {
+    width: 500px;
+    height: auto;
 }
 
 #help-forms {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 40px;
-    margin-top: 30px;
+    margin-left: 10%;
 }
 
 #help-forms p {
     margin-top: -3%;
     width: 100%;
+    margin-top: 0px;
+    margin-bottom: 7px;
 }
 
 .form {
