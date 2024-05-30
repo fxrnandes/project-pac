@@ -36,7 +36,7 @@
                     <a href="#help">Ajude</a>
                 </li>
                 <li class="nav-item">
-                    <a href="">Seja voluntário</a>
+                    <a href="#voluntary">Seja voluntário</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contact-content">Contato</a>
@@ -116,7 +116,7 @@
                 <img src="src/images/donation.png" id="help-img" alt="">
 
                 <div id="help-forms">
-                    <div class="form">
+                    <div class="form-help">
                         <i class="fa-solid fa-shirt fa-2xl"></i>
 
                         <div class="feedback-content">
@@ -133,7 +133,7 @@
                         </button>
                     </div>
 
-                    <div class="form">
+                    <div class="form-help">
                         <i class="fa-solid fa-money-bill-wave fa-rotate-by fa-2xl" style="--fa-rotate-angle: 15deg;""></i>                        <div class="form-content">
                             <h3>
                                 Doação monetária
@@ -148,7 +148,7 @@
                             Ajude
                         </button>
                     </div>
-                    <div class="form">
+                    <div class="form-help">
                         <i class="fa-solid fa-users fa-2xl" style="--fa-rotate-angle: 15deg;""></i>                        <div class="form-content">
                             <h3>
                                 Divulgue a causa
@@ -160,7 +160,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="form">
+                    <div class="form-help">
                         <i class="fa-solid fa-hand-holding-heart fa-2xl" style="--fa-rotate-angle: 15deg;"></i>                        <div class="form-content">
                             <h3>
                                 Voluntariado
@@ -179,33 +179,84 @@
             </div>
         </section>
 
+
+        <section id="voluntary">
+            <div class="container-title-voluntary">
+                <h3 class="section-subtitle-voluntary">
+                    Seja um <span>voluntário</span>
+                </h3>
+                <p>Se você sabe costurar e quer fazer a diferença na vida de alguém, entre em contato e faça parte do nosso grupo de voluntárias</p>
+            </div>
+    
+            <div id="voluntary-content">
+                <div class="form-voluntary">
+                    <form action="#" method="post">
+                        <div class="form-left">
+                            <label for="nome">Nome Completo:</label><br>
+                            <input type="text" id="nome" name="nome" required><br>
+                            
+                            <label for="data_nascimento">Data de Nascimento:</label><br>
+                            <input type="date" id="data_nascimento" name="data_nascimento" required><br>
+                            
+                            <label for="sexo">Sexo:</label><br>
+                            <input type="radio" id="feminino" name="sexo" value="Feminino" required>
+                            <label for="feminino">Feminino</label><br>
+                            <input type="radio" id="masculino" name="sexo" value="Masculino" required>
+                            <label for="masculino">Masculino</label><br><br>
+                            
+                            <label for="endereco">Endereço:</label><br>
+                            <div class="adress">
+                            <input type="text" id="rua" name="rua" placeholder="Rua" required>
+                            <input type="text" id="numero" name="numero" placeholder="Número" required>
+                                </div>
+                            <input type="text" id="complemento" name="complemento" placeholder="Complemento">
+                               
+                        </div>
+                        
+                        <div class="form-right">
+                            <label for="telefone">Telefone:</label><br>
+                            <input type="tel" id="telefone" name="telefone" required><br>
+                            
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" id="email" name="email" required><br>
+                            
+                            <label for="disponibilidade">Disponibilidade de Tempo:</label><br>
+                            <div class="tempos-voluntary">
+                                <input type="checkbox" id="manha" name="disponibilidade" value="Manhã">
+                                <label for="manha">Manhã</label><br>
+                                <input type="checkbox" id="tarde" name="disponibilidade" value="Tarde">
+                                <label for="tarde">Tarde</label><br>
+                                <input type="checkbox" id="noite" name="disponibilidade" value="Noite">
+                                <label for="noite">Noite</label><br>
+                                <input type="checkbox" id="fins_de_semana" name="disponibilidade" value="Fins de Semana">
+                                <label for="fins_de_semana">Fins de Semana</label><br>
+                            </div>
+                        </div>
+                        
+                        <div class="form-declaration">
+                            <input type="checkbox" id="concordo" name="concordo" value="sim" required>
+                            <label for="concordo">Eu declaro que todas as informações fornecidas neste formulário são verdadeiras e completas. Estou ciente das responsabilidades e compromissos que assumirei como voluntário(a) e me comprometo a respeitar as regras e regulamentos da organização.
+                            </label><br><br>
+                            
+                            <button type="submit" class="btn-default">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
         <div class=".container-title-contact">
             <h3 class="section-subtitle">
-                Entre em <span>contato</span> conosco
+                Entre em <span>contato </span>conosco
             </h3>
             </div>
 
         <section id="contact">
                 <div id="contact-content">
                     <div id="contact-forms">
-                        <div class="form">    
-                            <form>
-                                <label for="nome">Nome:</label>
-                                <input type="text" id="nome" name="nome" required>
-                                <br>
-                                <label for="email">E-mail:</label>
-                                <input type="email" id="email" name="email" required>
-                                <br>
-                                <label for="tel">Celular:</label>
-                                <input type="tel" id="tel" name="Telefone" required>
-                                <br>
-                                <label for="mensagem">Mensagem:</label>
-                                <textarea id="mensagem" name="mensagem" required></textarea>
-                              </form>
-                        </div>
-                        <button type="submit" class="btn-default">
-                            Enviar
-                        </button>
+                        
                     </div>
                 </div>
                 <div class="mapa">

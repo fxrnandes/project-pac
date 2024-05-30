@@ -55,11 +55,11 @@ h3.section-subtitle {
     margin-bottom: 7px;
 }
 
-.form {
+.form-help {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: var(--color-neutral-0);
+    background-color: var(--color-primary-2);
     padding: 12px;
     border-radius: 12px;
     border: 2px dashed #684614;
@@ -74,7 +74,7 @@ h3.section-subtitle {
     color: var(--color-primary-6);
 }
 
-.form i {
+.form-help i {
     padding: 10px;
     color: var(--color-neutral-1);
 }
