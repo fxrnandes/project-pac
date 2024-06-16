@@ -6,6 +6,7 @@
     gap: 48px;
     margin-top: 5%;
     flex-direction: column;
+    padding: 0 5%;
 }
 
 .container-title-voluntary {
@@ -13,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 /* Estilização do subtítulo */
@@ -36,12 +38,14 @@ h3.section-subtitle-voluntary {
     align-items: center;
     margin-top: 1%;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 #voluntary-content {
-    width: 80%;
+    width: 75%;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .form-voluntary {
@@ -50,23 +54,20 @@ h3.section-subtitle-voluntary {
     align-items: center;
     gap: 20px;
     background-color: var(--color-neutral-0);
-    padding: 12px;
+    padding: 20px;
     border-radius: 12px;
     border: 2px dashed var(--color-neutral-1);
     background-color: var(--color-primary-2);
+    flex-grow: 1;
     width: 100%;
 }
 
 .form-voluntary form {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.form-voluntary .form-left,
-.form-voluntary .form-right {
-    width: 45%;
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 1;
 }
 
 .form-voluntary label {
@@ -74,74 +75,26 @@ h3.section-subtitle-voluntary {
     color: var(--color-neutral-1);
 }
 
-form #nome, #email, #telefone {
-    display: flex;
+.forms {
     width: 100%;
-    background-color: var(--color-primary-1);
-    border: 1px dashed #684614;
-    padding: 5px;
-    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.forms input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
     margin-bottom: 10px;
-}
-
-form #rua {
-    display: flex;
-    width: 85%;
-    background-color: var(--color-primary-1);
-    border: 1px dashed #684614;
-    padding: 5px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-form #data_nascimento {
-    display: flex;
-    width: 25%;
-    background-color: var(--color-primary-1);
-    border: 1px dashed #684614;
-    padding: 5px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.adress {
-    display: flex;
-    justify-content: space-between;
-}
-
-form #numero {
-    display: flex;
-    width: 12%;
-    background-color: var(--color-primary-1);
-    border: 1px dashed #684614;
-    padding: 5px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-form #complemento {
-    display: flex;
-    width: 50%;
-    background-color: var(--color-primary-1);
-    border: 1px dashed #684614;
-    padding: 5px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.tempos-voluntary {
-    display: flex;
-    flex-direction: column;
+    border: 1px solid var(--color-neutral-1);
+    border-radius: 4px;
 }
 
 .form-declaration {
     width: 100%;
-    text-align: center;
     margin-top: 20px;
-}
-
-.form-declaration input[type="checkbox"] {
-    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-declaration .btn-default {
@@ -150,14 +103,16 @@ form #complemento {
     align-items: center;
     justify-content: center;
     background-color: var(--color-primary-5);
-    border-radius: 12px;
-    padding: 10px 14px;
+    border-radius: 30px;
+    padding: 10px 20px;
     font-weight: 600;
     border: 2px dashed #684614;
     cursor: pointer;
+    width: auto;
+    margin-top: 20px;
 }
 
 .form-declaration .btn-default:hover {
-    transform: scale(1.2); 
+    transform: scale(1.1); 
     transition: transform 0.3s ease;
 }
