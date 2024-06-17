@@ -92,8 +92,9 @@ form {
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 8%; /* Reduzido para diminuir o espaçamento */
-    border: 1px solid var(--color-neutral-1);
-    border-radius: 4px;
+    border: 1px dashed #684614;
+    border-radius: 8px;
+    background-color: var(--color-primary-1);
 }
 
 .form-declaration {
