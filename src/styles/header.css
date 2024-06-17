@@ -125,6 +125,8 @@ header {
     background-color: var(--color-primary-1);
     border: 1px dashed #684614;
     width: 70%;
+    padding: 8px;
+    border-radius: 15px;
 }
 
 .btn-login {
@@ -170,7 +172,8 @@ header {
 .password-container i {
     position: absolute;
     right: 80px; /* Posiciona o ícone um pouco afastado da borda direita */
-    top: 35%; /* Centraliza o ícone verticalmente */
+    top: 36%; /* Centraliza o ícone verticalmente */
+    margin-top: 1%;
     transform: translateY(-50%); /* Ajuste fino da posição vertical */
     cursor: pointer;
     color: var(--color-neutral-1);
@@ -179,7 +182,6 @@ header {
 .form-group.form-check {
     display: flex;
     margin-left: -200px;
-    margin-top: -15px;
 }
 
 .form-group.form-check .form-check-input {

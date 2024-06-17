@@ -17,7 +17,6 @@
     width: 100%;
 }
 
-/* Estilização do subtítulo */
 h3.section-subtitle-voluntary {
     font-size: 2.5rem;
     width: 100%;
@@ -26,7 +25,6 @@ h3.section-subtitle-voluntary {
     color: var(--color-neutral-1);
 }
 
-/* Estilização do span dentro do subtítulo */
 .section-subtitle-voluntary span {
     font-size: 2.5rem;
     color: var(--color-primary-6);
@@ -42,28 +40,36 @@ h3.section-subtitle-voluntary {
 }
 
 #voluntary-content {
-    width: 75%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
 }
 
 .form-voluntary {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px; 
     background-color: var(--color-neutral-0);
-    padding: 20px;
-    border-radius: 12px;
+    padding: 40px;
+    border-radius: 50px;
     border: 2px dashed var(--color-neutral-1);
     background-color: var(--color-primary-2);
     flex-grow: 1;
-    width: 100%;
+    width: 80%;
+    height: 100%;
+}
+
+.img-voluntary {
+    width: 55%;
+    height: 100%;
+    border-radius: 30px;
+    margin-top: 9%;
 }
 
 .form-voluntary form {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -75,26 +81,31 @@ h3.section-subtitle-voluntary {
     color: var(--color-neutral-1);
 }
 
-.forms {
+form {
     width: 100%;
     flex-grow: 1;
 }
+
 
 .forms input {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 8%; /* Reduzido para diminuir o espaçamento */
     border: 1px solid var(--color-neutral-1);
     border-radius: 4px;
 }
 
 .form-declaration {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px; /* Reduzido para diminuir o espaçamento */
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.form-check-label {
+    margin-top: 3%;
 }
 
 .form-declaration .btn-default {
@@ -104,12 +115,12 @@ h3.section-subtitle-voluntary {
     justify-content: center;
     background-color: var(--color-primary-5);
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 10px 100px;
     font-weight: 600;
     border: 2px dashed #684614;
     cursor: pointer;
     width: auto;
-    margin-top: 20px;
+    margin-top: 10px; /* Reduzido para diminuir o espaçamento */
 }
 
 .form-declaration .btn-default:hover {
